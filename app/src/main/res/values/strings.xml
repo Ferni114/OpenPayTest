@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_movies">Peliculas</string>
+    <string name="title_files">Archivos</string>
+    <string name="title_maps">Mapas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Perfil</string>
+    <string name="populars">Populares</string>
+    <string name="qualifieds">Las Mejores Calificadas</string>
+    <string name="next">Proximas</string>
+    <string name="upload_file">Subir Archivos</string>
+    <string name="upload_files">Selecciona las Imagenes de la galeria para almacenar en Firebase </string>
+    <string name="blank"></string>
+    <string name="cero">0</string>
+    <string name="favorits">Favoritos</string>
+    <string name="qualifieds1">Ranking</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/movies"
+        android:icon="@drawable/baseline_local_movies_24"
+        android:title="@string/title_movies" />
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/title_maps" />
+
+    <item
+        android:id="@+id/files"
+        android:icon="@drawable/baseline_file_upload_24"
+        android:title="@string/title_files" />
+
+</menu>
