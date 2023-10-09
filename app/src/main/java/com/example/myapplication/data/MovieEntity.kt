@@ -4,11 +4,29 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-@Entity(tableName="User")
-data class UserEntity(
+@Entity(tableName="Populars")
+data class PopularsEntity(
     @PrimaryKey(autoGenerate=true)
-    var id:Int ,
-    var name:String ,
-    var username:String,
-    var avatar: String
+    var id:Int,
+    var picture:String,
+    var title:String,
+    var date:String
+)
+
+@Entity(tableName="Qualifieds")
+data class QualifiedsEntity(
+    @PrimaryKey(autoGenerate=true)
+    var id:Int,
+    var picture:String,
+    var title:String,
+    var date:String
+)
+
+@Entity(tableName="Next")
+data class NextEntity(
+    @PrimaryKey(autoGenerate=true)
+    var id:Int,
+    var picture:String,
+    var title:String,
+    var date:String
 )

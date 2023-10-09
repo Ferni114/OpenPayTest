@@ -58,26 +58,6 @@ class ProfileFragment : Fragment() {
         }
     }
 
-    /* fun loadInfo(view:View,info:UserResponse){
-        var picture: ImageView =view.findViewById(R.id.picture)
-        var name: TextView =view.findViewById(R.id.name)
-        var username: TextView =view.findViewById(R.id.username)
-       Picasso.get().load("https://www.themoviedb.org/t/p/w150_and_h150_face"+info.avatar.tmdb.path).into(picture)
-       name.text=info.name
-        username.text=info.username
-    }
-
-    fun requestUser(view:View){
-        CoroutineScope(Dispatchers.IO).launch {
-            var array = APIClient.getRetrofit()?.create(APIService::class.java)?.getUser()
-            if(array?.isSuccessful == true) {
-
-                withContext(Dispatchers.Main){
-                    loadInfo(view,array.body() as UserResponse)
-                }
-            }
-        }
-    } */
 
 
 }

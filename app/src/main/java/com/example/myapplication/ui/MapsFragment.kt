@@ -49,10 +49,7 @@ class MapsFragment: Fragment(), OnMapReadyCallback {    // TODO: Rename and chan
         super.onViewCreated(view, savedInstanceState)
         val mapFragment = getChildFragmentManager().findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-         // val sdf = SimpleDateFormat("dd/M/yyyy hh:mm:ss")
-         // val currentDate = sdf.format(Date())
-         // addData(-34.0,151.0,currentDate)
-         // getData()
+
     }
 
     override fun onMapReady(googleMap: GoogleMap) {

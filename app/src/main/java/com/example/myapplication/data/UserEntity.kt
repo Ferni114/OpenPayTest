@@ -4,10 +4,11 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-@Entity(tableName="Users")
+@Entity(tableName="User")
 data class UserEntity(
     @PrimaryKey(autoGenerate=true)
     var id:Int ,
     var name:String ,
-    var phone:String
+    var username:String,
+    var avatar: String
 )

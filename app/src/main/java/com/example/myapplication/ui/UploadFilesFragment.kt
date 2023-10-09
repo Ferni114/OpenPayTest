@@ -64,16 +64,10 @@ class UploadFilesFragment: Fragment() {    // TODO: Rename and change types of p
                 // getting URI of selected Image
                 val imageUri: Uri? = result.data?.data
 
-                // val fileName = imageUri?.pathSegments?.last()
-
-                // extract the file name with extension
                 val sd = getFileName(requireContext(), imageUri!!)
 
-                // Upload Task with upload to directory 'file'
-                // and name of the file remains same
                 val uploadTask = storageRef.child("pictures/$sd").putFile(imageUri)
 
-                // On success, download the file URL and display it
                 uploadTask.addOnSuccessListener {
                     // using glide library to display the image
                     AlertClass.alert(
@@ -82,11 +76,7 @@ class UploadFilesFragment: Fragment() {    // TODO: Rename and change types of p
                         "Se ha subido el archivo correctamente"
                     )
                     storageRef.child("pictures/$sd").downloadUrl.addOnSuccessListener {
-                        /* Glide.with(this@MainActivity)
-                            .load(it)
-                            .into(imageview) */
 
-                        // Log.e("Firebase", "download passed")
                     }.addOnFailureListener {
                         AlertClass.alert(requireContext(), "Error", "Error al descargar la imagen")
                     }

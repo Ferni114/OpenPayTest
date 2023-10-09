@@ -10,8 +10,5 @@ data class MoviesResponse(
     var results:List<Movie>,
     @Transient
     var recycler:Int
-    /* @SerializedName("release_date")
-    var date:String,
-    @SerializedName("poster_path")
-    var picture:String */
+
 )

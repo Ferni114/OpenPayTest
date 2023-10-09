@@ -20,23 +20,12 @@ class MainActivity : AppCompatActivity() , LocationListener {
         setContentView(R.layout.activity_main)
 
          gotomenu()
-        // addData()
-        // getData()
+
         // sendNotification("0","Registro De Ubicacion","Se ha registrado nueva ubicacion")
 
     }
 
-    /* fun requestAPI(){
-        CoroutineScope(Dispatchers.IO).launch {
-            // APIClient.getRetrofit().create(APIService::class.java).getUsers()
-        }
-    } */
 
-    /* fun requestDatabase(){
-          withContext(Dispatchers.IO){ {
-           DatabaseClient.getRoom(this).usersDao()
-        }
-    } */
 
     fun gotomenu(){
         // Handler(Looper.getMainLooper()).postDelayed({
