@@ -40,5 +40,5 @@ Esta carpeta basicamente contiene todos los archivos ViewModel del proyecto para
 
 
 # Mejoras
-* la aplicacion puede tener futuras actualizaciones para implementar mejores metodologias y funcionalidades, es posible agregar mas funcionalidades de sensores y componentes para expandir
-* sus caracteristicas
+* la aplicacion puede tener futuras actualizaciones para implementar mejores metodologias y funcionalidades, es posible agregar mas funcionalidades de sensores y componentes para expandir sus caracteristicas
+ 
